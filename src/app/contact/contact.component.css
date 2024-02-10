@@ -1,0 +1,55 @@
+#contact {
+    min-height: calc(100vh - 6.25rem);
+    margin-top: 6.25rem;
+    padding: 1.875rem;
+}
+
+.line {
+    background-color: #fff;
+    width: 5rem;
+    height: .25rem;
+    background-color: #2C3E50;
+}
+
+h2,
+.icons i {
+    color: #2C3E50;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input {
+    border: none !important;
+    border-bottom: 1px solid rgb(209, 207, 207) !important;
+}
+
+label {
+    color: #1ABC9C;
+    position: relative;
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+.top-55 {
+    top: 55px;
+}
+
+.toppp-0 {
+    top: 0;
+}
+
+.bg-green {
+    background-color: #1ABC9C;
+}
+
+
+/* .color1 {
+    color: red;
+}
+
+.color2 {
+    color: blue;
+} */

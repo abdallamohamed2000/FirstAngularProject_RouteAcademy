@@ -1,0 +1,24 @@
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="text-white">
+            <h2 class="text-uppercase fw-bolder fs-1 my-3 text-center">contact component</h2>
+            <div class="icons mb-3 d-flex justify-content-center align-items-center">
+                <div class="line me-3"></div>
+                <i class="fas fa-star"></i>
+                <div class="line ms-3"></div>
+            </div>
+        </div>
+
+        <form class="col-md-7 mx-auto mt-5">
+            <div *ngFor="let input of inputs" class="pt-3">
+                <label [for]="input" [class]="inputTerm[input]? 'toppp-0':'top-55'">{{ input }}: </label>
+                <input [id]="input" [(ngModel)]="inputTerm[input]" class="form-control border-bottom py-3" [placeholder]="input" [name]="input" type="text">
+            </div>
+            <button class="btn text-white bg-green mt-4">send Message</button>
+
+        </form>
+
+
+
+    </div>
+</section>

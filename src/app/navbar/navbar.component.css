@@ -1,0 +1,30 @@
+li {
+    text-transform: capitalize;
+    width: fit-content;
+}
+
+nav {
+    background-color: #2C3E50;
+    transition: padding 500ms;
+    padding-block: 28px;
+}
+
+.mynav {
+    padding-block: 12px;
+}
+
+
+/* .my-scrolled-nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} */
+
+.linkActive {
+    background-color: #1ABC9C;
+}
+
+@media (max-width: 359.5px) {
+    .logo {
+        font-size: 20px !important;
+    }
+}

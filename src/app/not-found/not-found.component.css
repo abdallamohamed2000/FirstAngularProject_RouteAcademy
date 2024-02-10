@@ -1,0 +1,38 @@
+#notFound {
+    min-height: calc(50vh);
+    margin-top: 6.25rem;
+    padding: 5.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    background-color: #fff;
+    width: 5rem;
+    height: .25rem;
+    background-color: #2C3E50;
+}
+
+h2,
+.icons i {
+    color: #2C3E50;
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    h2 {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 358px) {
+    h2 {
+        font-size: 12px !important;
+    }
+}
